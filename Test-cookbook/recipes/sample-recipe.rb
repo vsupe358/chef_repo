@@ -9,7 +9,7 @@ package "httpd" do
 end
 
 file "/var/www/html/index.html" do
-  content "Dear DevOps Engineer's!!!  Welcome to the World of Automation!!!"
+  content "Dear DevOps Engineer's!!!  Welcome to the World of Automation!!! Successfully Integrating chef with Github"
   action :create
 end
 
