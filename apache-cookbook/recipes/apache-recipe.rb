@@ -9,7 +9,7 @@ package "httpd" do
 end
 
 file "/var/www/html/index111.html" do
-  content "Welcome to My Apache-Server"
+  content "chef integrating with Github"
   action :create
 end
 
